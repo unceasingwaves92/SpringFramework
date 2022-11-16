@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+	http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+	http://www.springframework.org/schema/context
+	http://www.springframework.org/schema/context/spring-context-3.0.xsd">
+
+    <bean id="marks" class="com.springboot.setterbean.Marks">
+        <property name="mark1" value="90"/>
+        <property name="mark2" value="80"/>
+        <property name="mark3" value="70"/>
+    </bean>
+
+    <bean id="student" class="com.springboot.setterbean.Student">
+        <property name="studentId" value="1"/>
+        <property name="studentName" value="Anand"/>
+        <property name="address" value="Bangalore"/>
+        <property name="marks" ref="marks"/>
+    </bean>
+
+    <bean id="address" class="com.springboot.setterbean.Address">
+        <property name="empPlot" value="61"/>
+        <property name="empArea" value="Perumbakkam"/>
+        <property name="empCity" value="Chennai"/>
+    </bean>
+
+    <bean id="employee" class="com.springboot.setterbean.Employee">
+        <property name="empName" value="Karthik"/>
+        <property name="empRollNo" value="11"/>
+        <property name="empDesignation" value="Senior Java Developer"/>
+        <property name="address" ref="address"/>
+
+    </bean>
+
+</beans>
