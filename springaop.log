@@ -1,0 +1,25 @@
+2022-12-29 13:01:24,596 INFO c.s.e.l.LoggingAspect [main] Input to Method: getPassenger with agrs: 1
+2022-12-29 13:01:24,627 INFO c.s.e.l.LoggingAspect [main] Method :getPassenger returns Passenger{id=1, name='null'}
+2022-12-29 13:01:24,627 INFO c.s.e.l.LoggingAspect [main]  Existing Method : getPassenger
+2022-12-29 13:01:24,643 INFO c.s.e.l.LoggingAspect [main] Method getPassenger return value:Passenger{id=1, name='null'}
+2022-12-29 13:01:24,643 INFO c.s.e.l.LoggingAspect [main] Method getPassengerName return value:Passenger{id=0, name='karthik'}
+2022-12-29 19:00:07,514 INFO c.s.e.l.LoggingAspect [main] Input to Method: getPassenger with agrs: 1
+2022-12-29 19:00:07,514 INFO c.s.e.l.LoggingAspect [main] Method :getPassenger returns Passenger{id=1, name='null'}
+2022-12-29 19:00:07,514 INFO c.s.e.l.LoggingAspect [main]  Existing Method : getPassenger
+2022-12-29 19:00:07,529 INFO c.s.e.l.LoggingAspect [main] Method getPassenger return value:Passenger{id=1, name='null'}
+2022-12-29 19:00:07,529 INFO c.s.e.l.LoggingAspect [main] Method getPassengerName return value:Passenger{id=0, name='karthik'}
+2022-12-29 19:44:02,338 INFO c.s.e.l.LoggingAspect [main] Input to Method: getPassenger with agrs: 1
+2022-12-29 19:44:02,347 INFO c.s.e.l.LoggingAspect [main] Method :getPassenger returns Passenger{id=1, name='null'}
+2022-12-29 19:44:02,348 INFO c.s.e.l.LoggingAspect [main]  Existing Method : getPassenger
+2022-12-29 19:44:02,349 INFO c.s.e.l.LoggingAspect [main] Method getPassenger return value:Passenger{id=1, name='null'}
+2022-12-29 19:44:02,350 INFO c.s.e.l.LoggingAspect [main] Method getPassengerName return value:Passenger{id=0, name='karthik'}
+2022-12-29 19:57:50,673 INFO c.s.e.l.LoggingAspect [main] Input to Method: getPassenger with agrs: 1
+2022-12-29 19:57:50,684 INFO c.s.e.l.LoggingAspect [main] Method :getPassenger returns Passenger{id=1, name='null'}
+2022-12-29 19:57:50,685 INFO c.s.e.l.LoggingAspect [main]  Existing Method : getPassenger
+2022-12-29 19:57:50,686 INFO c.s.e.l.LoggingAspect [main] Method getPassenger return value:Passenger{id=1, name='null'}
+2022-12-29 19:57:50,688 INFO c.s.e.l.LoggingAspect [main] Method getPassengerName return value:Passenger{id=0, name='karthik'}
+2022-12-29 20:36:08,871 INFO c.s.e.l.LoggingAspect [main] Input to Method: getPassenger with agrs: 1
+2022-12-29 20:36:08,880 INFO c.s.e.l.LoggingAspect [main] Method :getPassenger returns Passenger{id=1, name='null'}
+2022-12-29 20:36:08,881 INFO c.s.e.l.LoggingAspect [main]  Existing Method : getPassenger
+2022-12-29 20:36:08,882 INFO c.s.e.l.LoggingAspect [main] Method getPassenger return value:Passenger{id=1, name='null'}
+2022-12-29 20:36:08,883 INFO c.s.e.l.LoggingAspect [main] Method getPassengerName return value:Passenger{id=0, name='karthik'}

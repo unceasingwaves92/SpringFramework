@@ -9,7 +9,6 @@ import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Repository;
 
 
-@Deprecated
 @Scope("prototype")
 @Component
 public class Organization {
@@ -27,7 +26,6 @@ public class Organization {
     @Autowired(required = false)
     private Address address;
 
-    @Required
     public void setAddress(Address address) {
         this.address = address;
     }
